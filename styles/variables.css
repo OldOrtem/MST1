@@ -1,0 +1,21 @@
+body{
+    --base-text: white;
+    --base-butt: white;
+    --base-butt-text: #222222;
+    --header-back: #222222ef;
+    --hero-back: #222222;
+    --hero-text-back: #282829;
+    --sections-back: #282829;
+    --second-butt: #282829;
+    --second-butt-text: white;
+    --hr: #55565A;
+    --form-back: white;
+    --form-header: #38535D;
+    --form-border: #D5C9BE;
+    --input-border: #D6D6D6;
+    --input-border-active: #D5C9BE;
+    --footer-links: #D5C9BE;
+    --footer-hr: #D5C9BE;
+    --footer-back: #222222;
+    --checkbox: #405D65;
+}

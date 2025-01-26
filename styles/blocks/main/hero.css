@@ -1,0 +1,87 @@
+
+
+.hero{
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: var(--hero-back);
+    
+    
+    
+}
+.hero__wrapper{
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+
+.hero__info{
+    max-width: 550px;
+    margin-bottom: 50px;
+}
+
+.hero__title{
+    font-family: "Prata";
+    font-size: 3.33rem;
+    font-weight: 500;
+    line-height: 4rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.hero__subtitle{
+    margin: 0;
+    margin-bottom: 2.66rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+}
+
+.hero__ul{
+    margin: 0;
+    margin-bottom: 1.66rem;
+    padding: 0;
+    gap: 35px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+.hero__li {
+	/* list-style-image: url(../../../images/lists/heroLI.svg); */
+	list-style-type: none;
+    vertical-align: middle;
+    background-color: var(--sections-back);
+    border-radius: 4px;
+    line-height: 1em;
+    padding-right: 20px;
+    
+}
+
+.hero__li::before {
+    content: url(../../../images/lists/heroLI.svg);
+    vertical-align: middle;
+    margin-right: 0.6em;
+    height: 37px;
+    width: 39px;
+    line-height: 1em;
+}
+
+.hero__li span{
+    font-family: "Prata";
+    font-size: 1.66rem;
+    vertical-align: middle;
+    line-height: 1em;
+}
+
+
+
+.hero__img{
+    width: 40vw;
+    height: 100vh;
+    background-image: url(../../../images/house2.webp);
+    background-position: center;
+    z-index: 10;
+}

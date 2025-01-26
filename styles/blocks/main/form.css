@@ -1,0 +1,133 @@
+.form__container{
+    box-sizing: content-box;
+}
+
+.form__wrapper{
+    background-color: var(--form-back);
+    border-radius: 30px;
+    border: solid 2px var(--form-border);
+
+    background-image: url(../../../images/House.png) ;
+    background-size: 50%;
+    
+    background-position-x: 120%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+
+    flex-flow: column nowrap;
+    width: 100%;
+    padding: 70px 130px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.form__header{
+    font-family: "Prata";
+    line-height: 110%;
+    font-size: 2.25rem;
+    color: var(--form-header);
+    max-width: 60%;
+    font-weight: 200;
+    margin: 0 0 50px;
+}
+
+.form{
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 60%;
+    gap: 13px;
+    width: 100%;
+    
+}
+
+.form *{
+    flex: 1 0 auto;
+}
+
+
+.checkbox{
+    line-height: 100%;
+    margin: 13px 0;
+    color: var(--hr);
+}
+.checkbox input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+.checkbox input + label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.checkbox input + label::before {
+    content: ' ';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid var(--checkbox);
+    border-radius: 4px;
+    margin-right: 0.66rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.checkbox input:checked+label::before {
+    background-image: url(../../../images/check.svg);
+    font-style: italic;
+    color: var(--checkbox);
+}
+
+.checkbox *:hover {
+    cursor: pointer;
+}
+
+
+.form__input{
+    border-radius: 4px;
+    border: 2px solid var(--input-border);
+    padding: 14px 38px 13px ;
+
+}
+
+.form__input::placeholder{
+    color: var(--hr);
+    opacity: 0.7;
+
+}
+
+.form__input:focus::placeholder{
+    color: var(--hr);
+
+}
+
+
+.form__input:focus{
+    border: none;
+    outline: 2px solid var(--input-border-active);
+}
+
+.form__butt{
+    background-color: var(--second-butt) ;
+    color: var(--second-butt-text);
+}
+
+.form__butt:active{
+    background-color: var(--base--butt);
+    color: var(--base-butt-text);
+}
+
+.form__img{
+    background: url(../../../images/consultant.png) no-repeat;
+    height: 110%;
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    right: 0;
+    z-index: 11;
+    
+}

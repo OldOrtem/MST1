@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Prata";
+    src: url('../fonts/Prata-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Arial";
+    src: url('../fonts/arial/ARIAL.TTF') format("truetype");
+}
+
+@font-face {
+    font-family: "Arial_italic";
+    src: url('../fonts/arial/ARIAL.TTF') format("truetype");
+}
