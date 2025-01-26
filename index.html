@@ -25,9 +25,9 @@
             
             <nav class="header__nav nav">
                 <ul class="header__navlist navlist">
-                    <li class="header__navlink navlink"><a href="#">О КОМПАНИИ</a></li>
-                    <li class="header__navlink navlink"><a href="#apartments">КВАРТИРЫ</a></li>
-                    <li class="header__navlink navlink"><a href="#contacts">КОНТАКТЫ</a></li>
+                    <li class="header__navlink navlink"><a href="#hero">ABOUT US</a></li>
+                    <li class="header__navlink navlink"><a href="#apartments">APARTMENTS</a></li>
+                    <li class="header__navlink navlink"><a href="#contacts">CONTACTS</a></li>
                 </ul>
             </nav>
         </div>
@@ -36,24 +36,24 @@
     </header>
     
     <main class="main">
-        <section class="hero container">
+        <section id="hero" class="hero container">
 
             <div class="hero__wrapper wrapper">
                 <div class="hero__info">
                     <h1 class="hero__title">
-                        Строим для жизни
+                        Built for Life
                     </h1>
                     <h3 class="hero__subtitle">
-                        Новый дом уже сегодня
+                        Your New Home Today
                     </h3>
                     
                     <ul class="hero__ul">
-                        <li class="hero__li">более <span>15</span> лет опыта строительства.</li>
-                        <li class="hero__li"><span>80%</span> проектов сданы досрочно.</li>
-                        <li class="hero__li"><span>5</span> лет гарантии на каждую квартиру.</li>
+                        <li class="hero__li">over <span>15</span> years of construction experience</li>
+                        <li class="hero__li"><span>80%</span> of projects completed ahead of schedule</li>
+                        <li class="hero__li"><span>5</span> years of warranty for every apartment</li>
                     </ul>
                     
-                    <button class="butt">ЗАКАЗАТЬ</button>
+                    <button class="butt">ORDER</button>
                     
 
                 </div>
@@ -70,12 +70,12 @@
             <div class="about__content">
                 <ul class="about__ul">
                     
-                    <li class="about__li">Детские сады, школы, магазины и спортивные площадки в шаговой доступности.</li>
-                    <li class="about__li">Квартиры с продуманным пространством для каждого члена семьи.</li>
-                    <li class="about__li">Парки и зоны отдыха рядом с каждым жилым комплексом.</li>
-                    <li class="about__li">Закрытые дворы и круглосуточное видеонаблюдение.</li>
+                    <li class="about__li">Kindergartens, schools, shops, and sports facilities within walking distance</li>
+                    <li class="about__li">Apartments with thoughtfully designed spaces for every family member</li>
+                    <li class="about__li">Parks and recreational areas near each residential complex</li>
+                    <li class="about__li">Secure courtyards and 24/7 video surveillance.</li>
                 </ul>
-                <button class="butt about__butt">ЗАКАЗАТЬ</button>
+                <button class="butt about__butt">ORDER</button>
             </div>
 
             <div class="about__img"></div>
@@ -85,16 +85,17 @@
         <section id="contacts" class="form__container container">
 
             <div class="wrapper form__wrapper">
-                <h4 class="form__header">Оставьте заявку на консультацию</h4>
+                <h4 class="form__header">Request a Consultation</h4>
 
                 <form class="form" action="">
-                    <input class="form__input" type="text" placeholder="Ваше Имя">
-                    <input class="form__input" type="email" placeholder="E-mail">
+                    <input class="form__input" type="text" name="name" placeholder="Name" required>
+                    <input class="form__input" type="email" name="email" placeholder="E-mail" required>
+                    
                     <div class="checkbox">
-                        <input name="privacyPolicy" id="privacyPolicy" type="checkbox">
-                        <label for="privacyPolicy">Я принимаю политику конфиденциальности</label>
+                        <input name="privacyPolicy" id="privacyPolicy" type="checkbox" required>
+                        <label for="privacyPolicy">I accept Privacy policy</label>
                     </div>
-                    <button class="butt form__butt" type="submit">Отправить заявку</button>
+                    <button class="butt form__butt" type="submit">SUBMIT FORM</button>
                 </form>
 
                 <div class="form__img"></div>
@@ -106,9 +107,9 @@
     <footer>
         <nav class="footer__nav nav">
             <ul class="footer__navlist navlist">
-                <li class="footer__navlink navlink"><a href="#">О КОМПАНИИ</a></li>
-                    <li class="footer__navlink navlink"><a href="#apartments">КВАРТИРЫ</a></li>
-                    <li class="footer__navlink navlink"><a href="#contacts">КОНТАКТЫ</a></li>
+                <li class="footer__navlink navlink"><a href="#hero">ABOUT</a></li>
+                    <li class="footer__navlink navlink"><a href="#apartments">APARTMENTS</a></li>
+                    <li class="footer__navlink navlink"><a href="#contacts">CONTACTS</a></li>
             </ul>
         </nav>
 
@@ -121,25 +122,55 @@
 
                 <article class="footer__article">
                     <ul class="footer__links">
-                        <li><a href=""><img src="images/links/Component icons.svg" alt=""></a></li>
-                        <li><a href=""><img src="images/links/Component icons-1.svg" alt=""></a></li>
-                        <li><a href=""><img src="images/links/Component icons-2.svg" alt=""></a></li>
-                        <li><a href=""><img src="images/links/Component icons-3.svg" alt=""></a></li>
-                        <li><a href=""><img src="images/links/Component icons-4.svg" alt=""></a></li>
-                        <li><a href=""><img src="images/links/Component icons-5.svg" alt=""></a></li>
+                        <li><a href=""><img src="images/links/Component icons.svg" alt="Instagram"></a></li>
+                        <li><a href=""><img src="images/links/Component icons-1.svg" alt="Tik-tok"></a></li>
+                        <li><a href=""><img src="images/links/Component icons-2.svg" alt="LinkedIn"></a></li>
+                        <li><a href=""><img src="images/links/Component icons-3.svg" alt="Facebook"></a></li>
+                        <li><a href=""><img src="images/links/Component icons-4.svg" alt="Telegram"></a></li>
+                        <li><a href=""><img src="images/links/Component icons-5.svg" alt="YouTube"></a></li>
                     </ul>
     
-                    <a href="">Политика конфиденциальности</a>
+                    <a href="">Privacy policy</a>
                 </article>
 
                 <article class="footer__article">
-                    <button class="butt footer__butt">ЗАКАЗАТЬ</button>
-                    <a href="">Условия использования</a>
+                    <button class="butt footer__butt">ORDER</button>
+                    <a href="">Terms of use</a>
                 </article>
             </div>
             
         </section>
 
     </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        document.querySelector('.form').addEventListener('submit', function (e) {
+            const name = document.querySelector('input[name="name"]').value.trim();
+            const email = document.querySelector('input[name="email"]').value.trim();
+            const privacyPolicy = document.querySelector('input[name="privacyPolicy"]').checked;
+
+            if (!name || name.length < 2) {
+                alert('Please enter a valid name (minimum 2 characters).');
+                e.preventDefault();
+            } else if (!email || !/\S+@\S+\.\S+/.test(email)) {
+                alert('Please enter a valid email address.');
+                e.preventDefault();
+            } else if (!privacyPolicy) {
+                alert('You must accept the privacy policy.');
+                e.preventDefault();
+            }
+        });
+
+
+    </script>
 </body>
 </html>

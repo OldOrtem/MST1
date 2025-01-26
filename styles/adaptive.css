@@ -2,7 +2,7 @@
 @media (max-width: 1590px) {
     .form__wrapper{
        
-        background-size: 55%;
+        /* background-size: 55%; */
         
         background-position-x: 120%;
         background-position-y: bottom;
@@ -46,7 +46,7 @@
 
     .form__wrapper{
        
-        background-size: 60%;
+        /* background-size: 60%; */
         
         background-position-x: 120%;
         background-position-y: bottom;
